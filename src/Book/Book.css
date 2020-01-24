@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 25px 50px;
+    letter-spacing: 0.5px;
+}
+
+img {
+    margin-top: 20px;
+    object-fit: none;
+}
+
+.bookInfo, .bookDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px 50px;
+    line-height: 25px;
+    text-align: justify
+}
+
+.bookTitle {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 0px 0 10px 0;
+}
+
+.bookIntro {
+    margin: 20px;
+}
+
+.bookAuthor, .bookPublisher, .bookPublishedDate {
+    line-height: 20px;
+}
+
+.more, .buy-link, .buy-price {
+    width: 150px;
+    background-color: #039be5;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.more:hover, .buy-link:hover {
+    color: #003E5D;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.buttonPosition, .buy, .buy-link, .buy-price {
+    align-self: center;
+}
+
+.bookDescription {
+    padding-bottom: 25px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 75px;
+}
+
+.buy-link {
+    width: 225px;
+    margin: 0px 75px;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:active {
+    color: #003E5D;
+}
+
+.buy-price {
+    width: 125px;
+    margin: 0px 75px;
+    cursor: default;
+}
+
+.line {
+    margin: 0px 100px;
+}
